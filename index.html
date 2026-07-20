@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Moving-Out Cost & Deposit Checklist | Plan Cleaning, Supplies & Deposit Prep</title>
+  <meta name="description" content="Estimate common move-out costs, plan cleaning supplies, prepare for inspection, and use a room-by-room checklist before handing over keys. General educational guide for renters." />
+  <style>
+    :root { --bg:#101716; --card:#17211f; --ink:#f4efe3; --muted:#aab7ad; --line:#33433f; --brand:#9fc8b8; --cream:#f0e6d2; --slate:#22302d; --shadow:#060b0a; --input:#111a18; --warn:#ffd166; --danger:#f7a6a6; }
+    * { box-sizing:border-box; } html { scroll-behavior:smooth; }
+    body { margin:0; font-family:system-ui, -apple-system, Segoe UI, sans-serif; color:var(--ink); background:var(--bg); line-height:1.55; }
+    body::before { content:""; position:fixed; inset:0; z-index:-1; pointer-events:none; background:linear-gradient(90deg, rgba(159,200,184,.06) 1px, transparent 1px), linear-gradient(rgba(159,200,184,.05) 1px, transparent 1px); background-size:34px 34px; }
+    .wrap { width:min(1080px, calc(100% - 28px)); margin:0 auto; } header { padding:18px 0 34px; border-bottom:3px solid var(--line); }
+    .topbar { display:flex; justify-content:space-between; align-items:center; gap:14px; margin-bottom:28px; }
+    .brand { display:inline-flex; align-items:center; gap:10px; font-weight:900; letter-spacing:.02em; color:var(--ink); text-decoration:none; }
+    .brand-mark { display:grid; place-items:center; width:38px; height:38px; color:#0c1412; background:var(--brand); border:2px solid var(--line); border-radius:10px; box-shadow:3px 3px 0 var(--shadow); }
+    nav { display:flex; flex-wrap:wrap; gap:10px; } nav a, .status-pill, .pill { display:inline-block; color:#182622; background:var(--cream); border:2px solid var(--line); border-radius:999px; padding:6px 10px; font-weight:800; font-size:.9rem; text-decoration:none; box-shadow:3px 3px 0 var(--shadow); } nav a { background:var(--brand); }
+    .hero { display:grid; grid-template-columns:1.2fr .8fr; gap:20px; align-items:stretch; }
+    .card, .hero-card { background:var(--card); border:3px solid var(--line); border-radius:22px; padding:24px; box-shadow:7px 7px 0 var(--shadow); } .hero-card { padding:30px; }
+    h1 { margin:12px 0 16px; font-size:clamp(2.35rem, 6vw, 4.9rem); line-height:.95; letter-spacing:-.055em; } h2 { margin:0 0 12px; font-size:1.55rem; } h3 { margin:22px 0 8px; font-size:1.05rem; } p { margin:0 0 14px; } a { color:var(--brand); }
+    .muted { color:var(--muted); } .grid { display:grid; grid-template-columns:1.15fr .85fr; gap:22px; padding:28px 0; } .content-grid { display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:22px; padding:28px 0; } .full { grid-column:1 / -1; } .field-grid { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+    label { display:block; margin:14px 0 6px; font-weight:800; } input, select, textarea { width:100%; min-height:44px; padding:12px; color:var(--ink); background:var(--input); border:3px solid var(--line); border-radius:12px; font:inherit; box-shadow:3px 3px 0 var(--shadow); }
+    input:focus, button:focus, .button-link:focus, nav a:focus { outline:3px solid var(--brand); outline-offset:3px; } input[aria-invalid="true"] { border-color:var(--danger); } textarea { min-height:96px; resize:vertical; }
+    button, .button-link { display:inline-block; margin-top:18px; padding:13px 18px; color:#0c1412; background:var(--brand); border:3px solid var(--line); border-radius:12px; font-weight:900; text-decoration:none; box-shadow:4px 4px 0 var(--shadow); cursor:pointer; }
+    .button-row { display:flex; flex-wrap:wrap; gap:12px; align-items:center; } .secondary-button { background:var(--cream); }
+    .note-box { margin-top:20px; padding:18px; background:var(--slate); border:3px dashed var(--brand); border-radius:16px; } .validation-note { display:none; margin-top:14px; padding:12px; color:#201705; background:var(--warn); border:3px solid var(--line); border-radius:12px; font-weight:800; box-shadow:3px 3px 0 var(--shadow); } .validation-note.is-visible { display:block; }
+    .results { margin-top:20px; display:grid; gap:10px; } .result-row { display:flex; justify-content:space-between; gap:14px; padding:12px; background:var(--input); border:2px solid var(--line); border-radius:12px; box-shadow:3px 3px 0 var(--shadow); } .result-row strong:last-child { text-align:right; white-space:nowrap; } .result-row.main-total { background:var(--cream); color:#182622; border-width:3px; } .result-row.deposit-output { background:#1d2926; }
+    .checklist { list-style:none; margin:16px 0 0; padding:0; display:grid; gap:10px; } .checklist li { padding:11px 12px; background:var(--input); border:2px solid var(--line); border-radius:12px; box-shadow:3px 3px 0 var(--shadow); } .checklist li strong { color:var(--cream); }
+    .helper { margin-top:6px; color:var(--muted); font-size:.92rem; } .link-list { display:grid; gap:10px; margin-top:16px; }
+    .faq details { margin-top:12px; padding:14px; background:var(--input); border:2px solid var(--line); border-radius:14px; box-shadow:3px 3px 0 var(--shadow); } .faq summary { cursor:pointer; font-weight:900; } footer { padding:0 0 42px; color:var(--muted); }
+    @media (max-width:820px) { .hero, .grid, .field-grid, .content-grid { grid-template-columns:1fr; } .hero-card, .card { padding:18px; box-shadow:5px 5px 0 var(--shadow); } .topbar { align-items:flex-start; flex-direction:column; } nav { display:grid; width:100%; grid-template-columns:1fr; } nav a { text-align:center; } button, .button-link { width:100%; text-align:center; } .button-row { display:grid; grid-template-columns:1fr; } .result-row { align-items:flex-start; flex-direction:column; } .result-row strong:last-child { text-align:left; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap topbar">
+      <a class="brand" href="/"><span class="brand-mark">✓</span><span>MoveOutMath</span></a>
+      <nav aria-label="Main navigation">
+        <a href="/#calculator">Calculator</a>
+        <a href="/security-deposit-deduction-checklist/">Deposit checklist</a>
+        <a href="/apartment-move-out-cleaning-checklist/">Cleaning checklist</a>
+        <a href="/apartment-move-out-timeline/">Timeline</a>
+      </nav>
+    </div>
+    <section class="wrap hero" aria-labelledby="page-title">
+      <div class="hero-card">
+        <span class="pill">Moving-out cost and deposit checklist</span>
+        <h1 id="page-title">Moving-Out Cost & Deposit Checklist for Renters</h1>
+        <p class="muted">Moving out can get expensive fast: cleaning supplies, repairs, trash removal, movers, utility overlap, and possible deposit deductions. Use this beginner-friendly checklist to estimate common costs, clean room by room, document the apartment, and prepare for your final inspection.</p>
+        <div class="button-row"><a class="button-link" href="#calculator">Start with the move-out cost estimator</a><a class="button-link secondary-button" href="#deposit-prep">View the deposit prep checklist</a></div>
+      </div>
+      <aside class="card" aria-labelledby="scope-title"><h2 id="scope-title">Plan calmly, then check your lease</h2><p class="muted">Moving rules and deposit practices are not the same everywhere. This checklist focuses on practical preparation: budgeting, cleaning, documenting, saving receipts, and knowing what to check in your lease or local resources.</p></aside>
+    </section>
+  </header>
+  <main class="wrap grid">
+    <section class="card" id="calculator" aria-labelledby="calculator-title">
+      <h2 id="calculator-title">Quick move-out cost estimator</h2>
+      <p class="muted">Enter rough dollar amounts for the categories you know. Blank fields count as $0. The refundable deposit field is optional.</p>
+
+      <form id="moveout-form" novalidate>
+        <h3>Cleaning</h3>
+        <div class="field-grid">
+          <div>
+            <label for="cleaningSupplies">Cleaning supplies</label>
+            <input id="cleaningSupplies" name="cleaningSupplies" type="text" inputmode="decimal" autocomplete="off" aria-describedby="money-help" data-soft-max="50000">
+          </div>
+          <div>
+            <label for="professionalCleaning">Professional cleaning</label>
+            <input id="professionalCleaning" name="professionalCleaning" type="text" inputmode="decimal" autocomplete="off" data-soft-max="50000">
+          </div>
+        </div>
+
+        <h3>Repairs / patching</h3>
+        <div class="field-grid">
+          <div>
+            <label for="repairSupplies">Minor repair supplies</label>
+            <input id="repairSupplies" name="repairSupplies" type="text" inputmode="decimal" autocomplete="off" data-soft-max="50000">
+          </div>
+          <div>
+            <label for="repairLabor">Minor repair labor/help</label>
+            <input id="repairLabor" name="repairLabor" type="text" inputmode="decimal" autocomplete="off" data-soft-max="50000">
+          </div>
+        </div>
+
+        <h3>Trash, packing, and moving</h3>
+        <div class="field-grid">
+          <div>
+            <label for="trashJunkRemoval">Trash or junk removal</label>
+            <input id="trashJunkRemoval" name="trashJunkRemoval" type="text" inputmode="decimal" autocomplete="off" data-soft-max="50000">
+          </div>
+          <div>
+            <label for="packingSupplies">Packing supplies</label>
+            <input id="packingSupplies" name="packingSupplies" type="text" inputmode="decimal" autocomplete="off" data-soft-max="50000">
+          </div>
+          <div>
+            <label for="truckBase">Truck/rental base cost</label>
+            <input id="truckBase" name="truckBase" type="text" inputmode="decimal" autocomplete="off" data-soft-max="50000">
+          </div>
+          <div>
+            <label for="truckMiles">Rental miles</label>
+            <input id="truckMiles" name="truckMiles" type="text" inputmode="decimal" autocomplete="off" data-soft-max="10000">
+          </div>
+          <div>
+            <label for="truckMileageRate">Cost per mile</label>
+            <input id="truckMileageRate" name="truckMileageRate" type="text" inputmode="decimal" autocomplete="off" data-soft-max="50000">
+          </div>
+          <div>
+            <label for="truckFuelInsurance">Fuel, insurance, add-ons</label>
+            <input id="truckFuelInsurance" name="truckFuelInsurance" type="text" inputmode="decimal" autocomplete="off" data-soft-max="50000">
+          </div>
+          <div>
+            <label for="movingHelpHours">Moving help hours</label>
+            <input id="movingHelpHours" name="movingHelpHours" type="text" inputmode="decimal" autocomplete="off" data-soft-max="10000">
+          </div>
+          <div>
+            <label for="movingHelpHourlyRate">Moving help hourly rate</label>
+            <input id="movingHelpHourlyRate" name="movingHelpHourlyRate" type="text" inputmode="decimal" autocomplete="off" data-soft-max="50000">
+          </div>
+          <div>
+            <label for="movingHelpTip">Moving help tip/extra</label>
+            <input id="movingHelpTip" name="movingHelpTip" type="text" inputmode="decimal" autocomplete="off" data-soft-max="50000">
+          </div>
+        </div>
+
+        <h3>Final utility overlap</h3>
+        <div class="field-grid">
+          <div>
+            <label for="utilityOverlapDays">Utility overlap days</label>
+            <input id="utilityOverlapDays" name="utilityOverlapDays" type="text" inputmode="decimal" autocomplete="off" data-soft-max="10000">
+          </div>
+          <div>
+            <label for="dailyUtilityOverlapCost">Daily overlap cost</label>
+            <input id="dailyUtilityOverlapCost" name="dailyUtilityOverlapCost" type="text" inputmode="decimal" autocomplete="off" data-soft-max="50000">
+          </div>
+          <div>
+            <label for="finalUtilityEstimate">Final utility bill estimate</label>
+            <input id="finalUtilityEstimate" name="finalUtilityEstimate" type="text" inputmode="decimal" autocomplete="off" data-soft-max="50000">
+          </div>
+        </div>
+
+        <h3>Optional deposit estimator</h3>
+        <div class="field-grid">
+          <div>
+            <label for="expectedDepositDeductions">Expected deposit deductions</label>
+            <input id="expectedDepositDeductions" name="expectedDepositDeductions" type="text" inputmode="decimal" autocomplete="off" data-soft-max="50000">
+            <p class="helper">User-entered estimate only. This tool does not decide what can legally be deducted.</p>
+          </div>
+          <div>
+            <label for="refundableDepositAmount">Refundable deposit amount</label>
+            <input id="refundableDepositAmount" name="refundableDepositAmount" type="text" inputmode="decimal" autocomplete="off" data-soft-max="50000">
+            <p class="helper">Leave blank to hide refund and net-after-refund estimates.</p>
+          </div>
+        </div>
+
+        <p id="money-help" class="helper">Use numbers only, such as 45.50. Negative values and non-numeric entries are treated as $0 with a note.</p>
+        <div id="validation-note" class="validation-note" role="status" aria-live="polite"></div>
+
+        <div class="button-row">
+          <button type="submit">Calculate estimate</button>
+          <button class="secondary-button" type="reset">Reset calculator</button>
+        </div>
+      </form>
+
+      <div class="note-box">
+        <strong>How the deposit math is shown</strong>
+        <p class="muted">Move-out spending is new cash you expect to spend. Total financial impact adds user-entered deposit loss to that spending. If you enter a refundable deposit amount, expected refund is deposit minus your own expected deductions, and net after deposit refund is that refund minus move-out spending.</p>
+      </div>
+
+      <div class="results" role="status" aria-live="polite" aria-labelledby="results-title">
+        <h3 id="results-title">Estimated results</h3>
+        <div class="result-row"><span>Cleaning subtotal</span><strong data-output="cleaningSubtotal">$0.00</strong></div>
+        <div class="result-row"><span>Repair subtotal</span><strong data-output="repairSubtotal">$0.00</strong></div>
+        <div class="result-row"><span>Trash / junk subtotal</span><strong data-output="junkSubtotal">$0.00</strong></div>
+        <div class="result-row"><span>Packing subtotal</span><strong data-output="packingSubtotal">$0.00</strong></div>
+        <div class="result-row"><span>Truck / moving help subtotal</span><strong data-output="movingSubtotal">$0.00</strong></div>
+        <div class="result-row"><span>Utility subtotal</span><strong data-output="utilitySubtotal">$0.00</strong></div>
+        <div class="result-row main-total"><span>Move-out spending (new cash costs)</span><strong data-output="moveOutSpending">$0.00</strong></div>
+        <div class="result-row"><span>Estimated deposit loss (your entered deductions)</span><strong data-output="estimatedDepositLoss">$0.00</strong></div>
+        <div class="result-row main-total"><span>Total financial impact (spending + deposit loss)</span><strong data-output="totalFinancialImpact">$0.00</strong></div>
+        <div class="result-row deposit-output"><span>Expected deposit refund</span><strong data-output="expectedDepositRefund">N/A</strong></div>
+        <div class="result-row deposit-output"><span>Net after deposit refund (refund minus spending)</span><strong data-output="netAfterDepositRefund">N/A</strong></div>
+      </div>
+    </section>
+
+
+    <aside class="card" id="deposit-prep" aria-labelledby="checklist-title"><h2 id="checklist-title">Security deposit prep checklist</h2><p class="muted">This checklist is meant to help you organize cleaning, documentation, and questions to ask. It cannot guarantee whether a landlord or property manager will make deductions, and it does not replace local tenant guidance or legal advice.</p><ul class="checklist"><li>Read your lease move-out section and any building move-out instructions.</li><li>Ask how the final inspection works and what access, elevator, trash, or parking rules apply.</li><li>Take dated photos or video of each room before and after cleaning.</li><li>Save receipts for cleaning supplies, professional cleaning, repairs, and disposal fees.</li><li>Return all keys, fobs, remotes, parking passes, mailbox keys, and access cards.</li><li>Provide a forwarding address if your lease or property manager requests one.</li><li>Keep important move-out communication in writing when possible.</li></ul><a class="button-link" href="/security-deposit-deduction-checklist/">Open the full deposit checklist</a></aside>
+  </main>
+  <section class="wrap content-grid" aria-label="Move-out planning guide">
+    <section class="card"><h2>Move-out cost categories renters forget</h2><p class="muted">Not sure what to enter? Start with rough numbers. The goal is not a perfect quote — it is to spot costs you might otherwise forget.</p><ul class="checklist"><li><strong>Cleaning supplies:</strong> trash bags, sponges, degreaser, mop pads, gloves, and appliance cleaner.</li><li><strong>Lease-required cleaning:</strong> carpet cleaning, professional cleaning, or specific receipt requirements if your lease or building asks for them.</li><li><strong>Trash and bulk removal:</strong> dump fees, junk pickup, extra bags, or hauling help for furniture you are not taking.</li><li><strong>Patch or repair supplies:</strong> spackle, bulbs, replacement hardware, or paint touch-up only where allowed.</li><li><strong>Missing items:</strong> replacement keys, fobs, remotes, parking passes, or mailbox keys.</li><li><strong>Packing and moving:</strong> boxes, tape, labels, truck rental, mileage, fuel, movers, or helper tips.</li><li><strong>Final utilities:</strong> old-unit final bills, overlap days, internet return fees, or transfer charges.</li><li><strong>Pet-related cleanup:</strong> odor treatment, extra vacuuming, or lease-specific pet cleaning steps if applicable.</li></ul></section>
+    <section class="card"><h2>Room-by-room cleaning checklist</h2><p class="muted">Work from low-use spaces first, then finish kitchens, bathrooms, floors, and photos close to key return.</p><ul class="checklist"><li><strong>Kitchen:</strong> clean appliances, counters, cabinets, sink, backsplash, floor, and inside drawers.</li><li><strong>Bathroom:</strong> scrub toilet, tub/shower, sink, mirror, fan cover, cabinets, and floor edges.</li><li><strong>Bedrooms:</strong> empty closets, wipe shelves, dust fixtures, remove tape, and vacuum or mop floors.</li><li><strong>Living areas:</strong> dust baseboards, clean windowsills, wipe switches, and remove furniture marks where possible.</li><li><strong>Floors and carpets:</strong> vacuum slowly, mop hard floors, and follow lease instructions for carpets or rugs.</li><li><strong>Windows and blinds:</strong> dust blinds, wipe tracks, clean reachable glass, and report pre-existing damage if needed.</li><li><strong>Entry, porch, storage:</strong> clear closets, patio items, storage cages, and assigned garage spaces.</li></ul><a class="button-link" href="/apartment-move-out-cleaning-checklist/">Open the full cleaning checklist</a></section>
+    <section class="card"><h2>Simple move-out timeline</h2><ul class="checklist"><li><strong>30 days before:</strong> check notice requirements, lease move-out instructions, elevator reservations, and mover availability.</li><li><strong>2 weeks before:</strong> declutter, donate or dispose of unwanted items, gather supplies, and schedule cleaning or repair help.</li><li><strong>1 week before:</strong> confirm inspection details, clean low-use areas, pack nonessentials, and take first documentation photos.</li><li><strong>Final day:</strong> finish cleaning, take photos/video, return keys/fobs, share forwarding address if needed, and save receipts.</li></ul><a class="button-link" href="/apartment-move-out-timeline/">Open the 30-day timeline</a></section>
+    <section class="card"><h2>Deposit deduction basics, carefully worded</h2><p class="muted">Security deposit rules vary by location, lease, building rules, and specific facts. At a general planning level, deductions often relate to unpaid rent or fees, cleaning beyond normal expectations, damage beyond ordinary wear, missing items or keys, or lease-specific charges.</p><p class="muted">Use the checklist to prepare questions, document condition, and keep receipts. Do not treat this site as a decision about what is legally allowed in your situation.</p></section>
+    <section class="card full faq"><h2>Moving-out FAQ</h2><details><summary>How much should I budget for moving out of an apartment?</summary><p class="muted">Budget depends on your apartment size, cleaning condition, local prices, truck or mover needs, utility overlap, and lease instructions. Use the calculator above to build a rough planning number from the categories you actually expect.</p></details><details><summary>What move-out costs do renters often forget?</summary><p class="muted">Common forgotten costs include bulk trash removal, boxes and tape, replacement keys or fobs, carpet cleaning if required, final utility bills, elevator or parking logistics, and small repair supplies.</p></details><details><summary>Should I hire a professional cleaner before moving out?</summary><p class="muted">It depends on your lease, budget, time, and apartment condition. Some renters clean themselves; others hire help for kitchens, bathrooms, carpets, or a receipt if their lease or building asks for one.</p></details><details><summary>What should I photograph before handing over keys?</summary><p class="muted">Photograph or record each room, appliances, floors, walls, windows, closets, cabinets, keys/fobs, and any cleaning or repair work you completed. Keep copies with dates.</p></details><details><summary>What can affect a security deposit return?</summary><p class="muted">Possible factors include lease terms, local rules, unpaid balances, property condition, documentation, missing items, and inspection findings. This site cannot predict or guarantee a deposit outcome.</p></details><details><summary>What is considered normal wear and tear?</summary><p class="muted">The meaning can vary by location and situation. As a practical starting point, document the apartment condition, review your lease, and check local renter or tenant resources instead of relying on a broad definition.</p></details><details><summary>Should I patch nail holes before moving out?</summary><p class="muted">Check your lease or building instructions first. Some properties prefer specific repair methods or no DIY repairs, while others expect small patching.</p></details><details><summary>How early should I start cleaning before move-out day?</summary><p class="muted">Start low-use areas one to two weeks ahead if you can. Save daily-use kitchen, bathroom, floors, and final photos for the last stretch after furniture is out.</p></details><details><summary>What receipts should I keep after moving out?</summary><p class="muted">Keep receipts for professional cleaning, carpet cleaning if used, supplies, repairs, trash removal, truck or mover costs, key/fob returns, and utility final payments.</p></details><details><summary>Is this checklist legal advice?</summary><p class="muted">No. It is general educational planning information for renters. Check your lease, local renter resources, and official guidance for your area.</p></details></section>
+    <section class="card full"><h2>What to keep in one move-out folder</h2><p class="muted">Keep your move-out records together so you can answer questions quickly after key return. Save a copy of your lease move-out instructions, inspection details, dated room photos or video, cleaning and repair receipts, utility confirmations, forwarding address notes, and key/fob return confirmation.</p></section>
+  </section>
+  <footer class="wrap">
+    <p>This site provides general move-out planning information and budgeting estimates for renters. It is not legal advice. Lease terms, security deposit rules, notice periods, inspection rules, and allowed deductions vary by location and situation. Always review your lease, local renter/tenant resources, and official guidance for your area.</p>
+  </footer>
+
+  <script>
+    (function () {
+      const inputKeys = [
+        'cleaningSupplies',
+        'professionalCleaning',
+        'repairSupplies',
+        'repairLabor',
+        'trashJunkRemoval',
+        'packingSupplies',
+        'truckBase',
+        'truckMiles',
+        'truckMileageRate',
+        'truckFuelInsurance',
+        'movingHelpHours',
+        'movingHelpHourlyRate',
+        'movingHelpTip',
+        'utilityOverlapDays',
+        'dailyUtilityOverlapCost',
+        'finalUtilityEstimate',
+        'expectedDepositDeductions',
+        'refundableDepositAmount'
+      ];
+
+      const optionalDepositKey = 'refundableDepositAmount';
+      const moneyFormatter = new Intl.NumberFormat('en-US', {
+        style: 'currency',
+        currency: 'USD',
+        minimumFractionDigits: 2,
+        maximumFractionDigits: 2
+      });
+
+      function formatCurrency(value) {
+        return moneyFormatter.format(value);
+      }
+
+      function parseNonNegativeNumber(rawValue, key, label, options = {}) {
+        const raw = String(rawValue || '').trim();
+        const result = { value: 0, provided: raw !== '', notes: [], invalid: false };
+
+        if (raw === '') {
+          result.provided = false;
+          return result;
+        }
+
+        if (!/^-?(?:\d+(?:\.\d+)?|\.\d+)$/.test(raw)) {
+          result.notes.push(`${label}: enter a plain number. This entry is counted as 0 for now.`);
+          result.invalid = true;
+          return result;
+        }
+
+        const parsed = Number(raw);
+        if (!Number.isFinite(parsed)) {
+          result.notes.push(`${label}: enter a plain number. This entry is counted as 0 for now.`);
+          result.invalid = true;
+          return result;
+        }
+
+        if (parsed < 0) {
+          result.notes.push(`${label}: negative values are not allowed, so this entry is counted as 0.`);
+          result.invalid = true;
+          return result;
+        }
+
+        const softMax = Number(options.softMax || 0);
+        if (softMax && parsed > softMax) {
+          result.notes.push(`${label}: this is above the suggested planning range; double-check the amount.`);
+        }
+
+        result.value = parsed;
+        return result;
+      }
+
+      function calculateValues(values) {
+        const cleaningSubtotal = values.cleaningSupplies + values.professionalCleaning;
+        const repairSubtotal = values.repairSupplies + values.repairLabor;
+        const junkSubtotal = values.trashJunkRemoval;
+        const packingSubtotal = values.packingSupplies;
+        const movingSubtotal =
+          values.truckBase +
+          (values.truckMiles * values.truckMileageRate) +
+          values.truckFuelInsurance +
+          (values.movingHelpHours * values.movingHelpHourlyRate) +
+          values.movingHelpTip;
+        const utilitySubtotal =
+          (values.utilityOverlapDays * values.dailyUtilityOverlapCost) +
+          values.finalUtilityEstimate;
+        const moveOutSpending =
+          cleaningSubtotal +
+          repairSubtotal +
+          junkSubtotal +
+          packingSubtotal +
+          movingSubtotal +
+          utilitySubtotal;
+        const estimatedDepositLoss = values.expectedDepositDeductions;
+        const totalFinancialImpact = moveOutSpending + estimatedDepositLoss;
+        const depositProvided = values.refundableDepositAmountProvided === true;
+        const expectedDepositRefund = depositProvided
+          ? Math.max(values.refundableDepositAmount - values.expectedDepositDeductions, 0)
+          : null;
+        const netAfterDepositRefund = depositProvided
+          ? expectedDepositRefund - moveOutSpending
+          : null;
+
+        return {
+          cleaningSubtotal,
+          repairSubtotal,
+          junkSubtotal,
+          packingSubtotal,
+          movingSubtotal,
+          utilitySubtotal,
+          moveOutSpending,
+          estimatedDepositLoss,
+          totalFinancialImpact,
+          expectedDepositRefund,
+          netAfterDepositRefund,
+          depositProvided
+        };
+      }
+
+      function getLabel(input) {
+        const label = document.querySelector(`label[for="${input.id}"]`);
+        return label ? label.textContent.trim() : input.name;
+      }
+
+      function readFormValues(form) {
+        const values = {};
+        const notes = [];
+        let hasInvalid = false;
+
+        inputKeys.forEach((key) => {
+          const input = form.elements[key];
+          if (!input) return;
+          const parsed = parseNonNegativeNumber(input.value, key, getLabel(input), {
+            softMax: input.dataset.softMax
+          });
+          values[key] = parsed.value;
+          if (key === optionalDepositKey) {
+            values.refundableDepositAmountProvided = parsed.provided && !parsed.invalid;
+          }
+          if (parsed.invalid) {
+            hasInvalid = true;
+          }
+          input.setAttribute('aria-invalid', parsed.invalid ? 'true' : 'false');
+          notes.push(...parsed.notes);
+        });
+
+        return { values, notes, hasInvalid };
+      }
+
+      function renderResults(results) {
+        Object.keys(results).forEach((key) => {
+          const output = document.querySelector(`[data-output="${key}"]`);
+          if (!output) return;
+          if ((key === 'expectedDepositRefund' || key === 'netAfterDepositRefund') && !results.depositProvided) {
+            output.textContent = 'N/A';
+          } else if (typeof results[key] === 'number') {
+            output.textContent = formatCurrency(results[key]);
+          }
+        });
+      }
+
+      function renderNotes(notes, hasInvalid) {
+        const noteEl = document.getElementById('validation-note');
+        if (!noteEl) return;
+        if (!notes.length) {
+          noteEl.classList.remove('is-visible');
+          noteEl.textContent = '';
+          return;
+        }
+        const prefix = hasInvalid ? 'Please review: ' : 'Double-check: ';
+        noteEl.textContent = prefix + notes.join(' ');
+        noteEl.classList.add('is-visible');
+      }
+
+      function updateCalculator() {
+        const form = document.getElementById('moveout-form');
+        if (!form) return;
+        const { values, notes, hasInvalid } = readFormValues(form);
+        const results = calculateValues(values);
+        renderResults(results);
+        renderNotes(notes, hasInvalid);
+      }
+
+      function initCalculator() {
+        const form = document.getElementById('moveout-form');
+        if (!form) return;
+        form.addEventListener('input', updateCalculator);
+        form.addEventListener('submit', (event) => {
+          event.preventDefault();
+          updateCalculator();
+        });
+        form.addEventListener('reset', () => {
+          window.setTimeout(updateCalculator, 0);
+        });
+        updateCalculator();
+      }
+
+      window.MoveOutCalculator = {
+        parseNonNegativeNumber,
+        calculateValues,
+        formatCurrency
+      };
+
+      initCalculator();
+    }());
+  </script>
+</body>
+</html>

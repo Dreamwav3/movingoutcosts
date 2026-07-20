@@ -1,0 +1,5 @@
+# robots.txt for the local Moving-Out Cost & Deposit Checklist MVP.
+# No live domain exists yet. Add a real absolute Sitemap URL only after deployment.
+
+User-agent: *
+Allow: /

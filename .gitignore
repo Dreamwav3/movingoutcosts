@@ -1,0 +1,11 @@
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Local/dev artifacts
+.env
+.env.*
+node_modules/
+.netlify/

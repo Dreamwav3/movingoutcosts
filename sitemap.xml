@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Placeholder sitemap for the local Moving-Out Cost & Deposit Checklist MVP.
+  XML sitemaps require absolute URLs, but this project has no live domain yet.
+  Replace https://example.com/moveout-placeholder with the real production base URL after deployment.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://example.com/moveout-placeholder/</loc>
+  </url>
+  <url>
+    <loc>https://example.com/moveout-placeholder/move-out-cleaning-cost-estimator/</loc>
+  </url>
+  <url>
+    <loc>https://example.com/moveout-placeholder/security-deposit-deduction-checklist/</loc>
+  </url>
+  <url>
+    <loc>https://example.com/moveout-placeholder/apartment-move-out-cleaning-checklist/</loc>
+  </url>
+  <url>
+    <loc>https://example.com/moveout-placeholder/apartment-move-out-timeline/</loc>
+  </url>
+</urlset>

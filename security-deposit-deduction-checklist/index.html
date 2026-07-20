@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Security Deposit Deduction Checklist for Renters</title>
+  <meta name="description" content="Use this general renter checklist to prepare for move-out, document apartment condition, save receipts, and ask better inspection questions." />
+  <style>
+    :root { --bg:#101716; --card:#17211f; --ink:#f4efe3; --muted:#aab7ad; --line:#33433f; --brand:#9fc8b8; --cream:#f0e6d2; --slate:#22302d; --shadow:#060b0a; --input:#111a18; --warn:#ffd166; --danger:#f7a6a6; }
+    * { box-sizing:border-box; } html { scroll-behavior:smooth; }
+    body { margin:0; font-family:system-ui, -apple-system, Segoe UI, sans-serif; color:var(--ink); background:var(--bg); line-height:1.55; }
+    body::before { content:""; position:fixed; inset:0; z-index:-1; pointer-events:none; background:linear-gradient(90deg, rgba(159,200,184,.06) 1px, transparent 1px), linear-gradient(rgba(159,200,184,.05) 1px, transparent 1px); background-size:34px 34px; }
+    .wrap { width:min(1080px, calc(100% - 28px)); margin:0 auto; } header { padding:18px 0 34px; border-bottom:3px solid var(--line); }
+    .topbar { display:flex; justify-content:space-between; align-items:center; gap:14px; margin-bottom:28px; }
+    .brand { display:inline-flex; align-items:center; gap:10px; font-weight:900; letter-spacing:.02em; color:var(--ink); text-decoration:none; }
+    .brand-mark { display:grid; place-items:center; width:38px; height:38px; color:#0c1412; background:var(--brand); border:2px solid var(--line); border-radius:10px; box-shadow:3px 3px 0 var(--shadow); }
+    nav { display:flex; flex-wrap:wrap; gap:10px; } nav a, .status-pill, .pill { display:inline-block; color:#182622; background:var(--cream); border:2px solid var(--line); border-radius:999px; padding:6px 10px; font-weight:800; font-size:.9rem; text-decoration:none; box-shadow:3px 3px 0 var(--shadow); } nav a { background:var(--brand); }
+    .hero { display:grid; grid-template-columns:1.2fr .8fr; gap:20px; align-items:stretch; }
+    .card, .hero-card { background:var(--card); border:3px solid var(--line); border-radius:22px; padding:24px; box-shadow:7px 7px 0 var(--shadow); } .hero-card { padding:30px; }
+    h1 { margin:12px 0 16px; font-size:clamp(2.35rem, 6vw, 4.9rem); line-height:.95; letter-spacing:-.055em; } h2 { margin:0 0 12px; font-size:1.55rem; } h3 { margin:22px 0 8px; font-size:1.05rem; } p { margin:0 0 14px; } a { color:var(--brand); }
+    .muted { color:var(--muted); } .grid { display:grid; grid-template-columns:1.15fr .85fr; gap:22px; padding:28px 0; } .content-grid { display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:22px; padding:28px 0; } .full { grid-column:1 / -1; } .field-grid { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+    label { display:block; margin:14px 0 6px; font-weight:800; } input, select, textarea { width:100%; min-height:44px; padding:12px; color:var(--ink); background:var(--input); border:3px solid var(--line); border-radius:12px; font:inherit; box-shadow:3px 3px 0 var(--shadow); }
+    input:focus, button:focus, .button-link:focus, nav a:focus { outline:3px solid var(--brand); outline-offset:3px; } input[aria-invalid="true"] { border-color:var(--danger); } textarea { min-height:96px; resize:vertical; }
+    button, .button-link { display:inline-block; margin-top:18px; padding:13px 18px; color:#0c1412; background:var(--brand); border:3px solid var(--line); border-radius:12px; font-weight:900; text-decoration:none; box-shadow:4px 4px 0 var(--shadow); cursor:pointer; }
+    .button-row { display:flex; flex-wrap:wrap; gap:12px; align-items:center; } .secondary-button { background:var(--cream); }
+    .note-box { margin-top:20px; padding:18px; background:var(--slate); border:3px dashed var(--brand); border-radius:16px; } .validation-note { display:none; margin-top:14px; padding:12px; color:#201705; background:var(--warn); border:3px solid var(--line); border-radius:12px; font-weight:800; box-shadow:3px 3px 0 var(--shadow); } .validation-note.is-visible { display:block; }
+    .results { margin-top:20px; display:grid; gap:10px; } .result-row { display:flex; justify-content:space-between; gap:14px; padding:12px; background:var(--input); border:2px solid var(--line); border-radius:12px; box-shadow:3px 3px 0 var(--shadow); } .result-row strong:last-child { text-align:right; white-space:nowrap; } .result-row.main-total { background:var(--cream); color:#182622; border-width:3px; } .result-row.deposit-output { background:#1d2926; }
+    .checklist { list-style:none; margin:16px 0 0; padding:0; display:grid; gap:10px; } .checklist li { padding:11px 12px; background:var(--input); border:2px solid var(--line); border-radius:12px; box-shadow:3px 3px 0 var(--shadow); } .checklist li strong { color:var(--cream); }
+    .helper { margin-top:6px; color:var(--muted); font-size:.92rem; } .link-list { display:grid; gap:10px; margin-top:16px; }
+    .faq details { margin-top:12px; padding:14px; background:var(--input); border:2px solid var(--line); border-radius:14px; box-shadow:3px 3px 0 var(--shadow); } .faq summary { cursor:pointer; font-weight:900; } footer { padding:0 0 42px; color:var(--muted); }
+    @media (max-width:820px) { .hero, .grid, .field-grid, .content-grid { grid-template-columns:1fr; } .hero-card, .card { padding:18px; box-shadow:5px 5px 0 var(--shadow); } .topbar { align-items:flex-start; flex-direction:column; } nav { display:grid; width:100%; grid-template-columns:1fr; } nav a { text-align:center; } button, .button-link { width:100%; text-align:center; } .button-row { display:grid; grid-template-columns:1fr; } .result-row { align-items:flex-start; flex-direction:column; } .result-row strong:last-child { text-align:left; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap topbar">
+      <a class="brand" href="/"><span class="brand-mark">✓</span><span>MoveOutMath</span></a>
+      <nav aria-label="Main navigation">
+        <a href="/#calculator">Calculator</a>
+        <a href="/security-deposit-deduction-checklist/">Deposit checklist</a>
+        <a href="/apartment-move-out-cleaning-checklist/">Cleaning checklist</a>
+        <a href="/apartment-move-out-timeline/">Timeline</a>
+      </nav>
+    </div>
+    <section class="wrap hero" aria-labelledby="page-title">
+      <div class="hero-card"><span class="pill">Renter move-out guide</span><h1 id="page-title">Security Deposit Deduction Checklist for Renters</h1><p class="muted">Practical, location-neutral planning help for renters preparing to clean, document, budget, and return keys.</p><a class="button-link" href="/#calculator">Go to the move-out cost calculator</a></div>
+      <aside class="card"><h2>Quick links</h2><div class="link-list"><a href="/">Main checklist hub</a><a href="/move-out-cleaning-cost-estimator/">Cleaning cost estimator guide</a><a href="/security-deposit-deduction-checklist/">Security deposit checklist</a><a href="/apartment-move-out-cleaning-checklist/">Cleaning checklist</a><a href="/apartment-move-out-timeline/">Move-out timeline</a></div></aside>
+    </section>
+  </header>
+  <main class="wrap content-grid"><article class="card full"><p class="muted">This is a general educational checklist for preparing your apartment and records before move-out. It does not decide what a landlord or property manager can deduct, and it does not replace local tenant guidance or legal advice.</p><h2>Before you start cleaning</h2><ul class="checklist"><li>Read the lease move-out section, including cleaning, carpet, trash, key, notice, and forwarding-address instructions.</li><li>Ask your property manager how final inspection works and whether there is a move-out form or preferred process.</li><li>Confirm elevator, loading dock, parking, trash room, and bulk-item rules before move-out day.</li><li>Make a list of keys, fobs, remotes, parking passes, mailbox keys, and access cards to return.</li></ul><h2>Documentation checklist</h2><ul class="checklist"><li>Take clear dated photos or video of every room before major cleaning if you want a baseline.</li><li>After cleaning, photograph appliances, cabinets, closets, floors, walls, windows, bathrooms, and entry areas.</li><li>Photograph returned keys/fobs or get a written confirmation if the property provides one.</li><li>Save receipts for professional cleaning, carpet cleaning, repair supplies, disposal fees, and final utilities.</li><li>Keep move-out emails, text messages, inspection notes, and instructions in one folder.</li></ul><h2>Common deduction categories to ask about</h2><p class="muted">At a high level, deposit deductions often relate to unpaid rent or fees, cleaning beyond normal expectations, damage beyond ordinary wear, missing items or keys, or lease-specific charges. The details vary by location, lease, and facts, so use this as a question list rather than a legal conclusion.</p><ul class="checklist"><li>Are there unpaid balances, utility charges, parking charges, or move-out fees to settle?</li><li>Does the building require specific cleaning, carpet cleaning, or trash-removal steps?</li><li>Are any keys, fobs, passes, remotes, or fixtures missing?</li><li>Are there repair items you should ask about before attempting DIY fixes?</li></ul><a class="button-link" href="/#calculator">Estimate move-out costs and possible deposit impact</a><div class="note-box"><strong>General planning note</strong><p class="muted">This page is educational and does not provide legal advice or a deposit-return guarantee. Lease terms, local rules, apartment condition, and property instructions can all affect what you should do next.</p></div></article></main>
+  <footer class="wrap">
+    <p>This site provides general move-out planning information and budgeting estimates for renters. It is not legal advice. Lease terms, security deposit rules, notice periods, inspection rules, and allowed deductions vary by location and situation. Always review your lease, local renter/tenant resources, and official guidance for your area.</p>
+  </footer>
+</body>
+</html>
