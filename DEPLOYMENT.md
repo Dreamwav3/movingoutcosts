@@ -2,24 +2,13 @@
 
 ## Current status
 
-This standalone repo is prepared for Netlify deployment, but no live deployment is claimed until the Netlify site is recreated and verified.
-
-## Create GitHub repo
-
-Create an empty GitHub repository:
+This standalone repo has been pushed to GitHub at:
 
 ```text
-Dreamwav3/movingoutcosts
+https://github.com/Dreamwav3/movingoutcosts.git
 ```
 
-Do not add README, `.gitignore`, or license on GitHub because this local repo already has files.
-
-Then connect and push from this folder:
-
-```bash
-git remote add origin https://github.com/Dreamwav3/movingoutcosts.git
-git push -u origin main
-```
+No live deployment is claimed until the Netlify site is created and verified.
 
 ## Create Netlify site
 
